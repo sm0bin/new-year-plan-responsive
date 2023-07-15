@@ -232,7 +232,7 @@ input[type="submit"] {
     .card-container,
     footer {
         flex-direction: column;
-        gap: 64px;
+        gap: 80px;
     }
 
     .hero-box h1,
@@ -253,6 +253,13 @@ input[type="submit"] {
         background-position: top right;
     }
 
+    .hero-box h1 {
+        font-size: 2.5rem;
+    }
+
+    ul.tick {
+        list-style-position: outside;
+    }
 
     .content {
         margin-top: 0px;
