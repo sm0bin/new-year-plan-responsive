@@ -242,7 +242,8 @@ input[type="submit"] {
     .previous img,
     .banner h2,
     .footer-parts-1,
-    .footer-parts-2 {
+    .footer-parts-2,
+    form {
         width: 100%;
     }
 

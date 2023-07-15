@@ -221,3 +221,96 @@ input[type="email"] {
 .social-links a {
     margin-right: 18px;
 }
+
+@media only screen and (max-width: 640px) {
+
+    .previous,
+    .card-container,
+    footer {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .hero-box h1,
+    .hero-box p,
+    .previous img,
+    .banner h2,
+    .footer-parts-1,
+    .footer-parts-2,
+    form {
+        width: 100%;
+    }
+
+    main {
+        padding: 0 24px;
+    }
+
+    .hero-box {
+        padding: 40px;
+        background-position: top right;
+    }
+
+    .hero-box h1 {
+        font-size: 2.5rem;
+    }
+
+    ul.tick {
+        list-style-position: outside;
+    }
+
+    .content {
+        margin-top: 0px;
+    }
+
+    .banner {
+        padding: 20px 0 20px 20px;
+        margin: 48px 0;
+    }
+
+    footer {
+        padding: 48px 24px;
+    }
+
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1280px) {
+
+    .previous,
+    .card-container,
+    footer {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .hero-box h1,
+    .hero-box p,
+    .previous img,
+    .banner h2,
+    .footer-parts-1,
+    .footer-parts-2,
+    form {
+        width: 100%;
+    }
+
+    main {
+        padding: 0 32px;
+    }
+
+    .hero-box {
+        padding: 32px;
+        background-position: top right;
+    }
+
+    .content {
+        margin-top: 0px;
+    }
+
+    .my-plans h2 {
+        margin: 130px 0;
+    }
+
+    footer {
+        padding: 48px 32px;
+    }
+
+}
