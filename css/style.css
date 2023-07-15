@@ -76,7 +76,9 @@ main {
 }
 
 .previous img {
-    width: 530px;
+    width: 40%;
+    height: auto;
+
 }
 
 .content {
@@ -272,6 +274,48 @@ input[type="submit"] {
 
     footer {
         padding: 48px 24px;
+    }
+
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1280px) {
+
+    .previous,
+    .card-container,
+    footer {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .hero-box h1,
+    .hero-box p,
+    .previous img,
+    .banner h2,
+    .footer-parts-1,
+    .footer-parts-2,
+    form {
+        width: 100%;
+    }
+
+    main {
+        padding: 0 32px;
+    }
+
+    .hero-box {
+        padding: 32px;
+        background-position: top right;
+    }
+
+    .content {
+        margin-top: 0px;
+    }
+
+    .my-plans h2 {
+        margin: 130px 0;
+    }
+
+    footer {
+        padding: 48px 32px;
     }
 
 }
